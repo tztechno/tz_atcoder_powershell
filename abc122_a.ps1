@@ -14,6 +14,7 @@ $mapp = @{
 }
 $mapp[$b]
 ##########################################
+[error]
 $b = [console]::ReadLine()
 mapp={'A':'T','C':'G','G':'C','T':'A'}
 mapp[$b]
